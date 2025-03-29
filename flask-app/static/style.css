@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.task-name {
+  flex: 1;
+  font-size: 18px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
